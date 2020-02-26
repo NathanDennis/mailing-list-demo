@@ -15,4 +15,4 @@ I will update this readme when I find somewhere to host it and re-load dummy dat
 
 The NPM package `faker` was used to insert 500+ rows of dummy data into the database using the mySQL NPM package to establish the connection and run the queries.
 
-The number in the paragraph comes from pulling the total number of users from the database users table with a `SELECT COUNT(*)` query, and injecting it into the markup with EJS.
+The number in the paragraph is dynamic. After entering an email address and clicking submit, an INSERT query is sent off and a call to <code>res.redirect()</code> returns the user to the landing page, updating the total number of users displayed
