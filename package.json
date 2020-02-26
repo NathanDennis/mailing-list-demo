@@ -1,0 +1,19 @@
+{
+  "name": "startup-mailing-list",
+  "version": "1.0.0",
+  "description": "A simple / boilerplate app for collecting email addresses for a mailing list",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Nathan Dennis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mysql": "^2.18.1"
+  }
+}
